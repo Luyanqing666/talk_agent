@@ -1,0 +1,28 @@
+# Agent项目依赖
+# 基础依赖
+python-dateutil>=2.8.2
+# 可选的NLP库（如果需要更复杂的自然语言处理）
+# transformers>=4.30.0
+# numpy>=1.24.3
+# pandas>=2.0.3
+
+# 开发依赖
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.7.0
+flake8>=6.0.0
+
+# 日志记录
+logging>=0.5.1.2
+
+# 数据处理
+jsonschema>=4.17.3
+
+# 异步支持
+asyncio>=3.4.3
+
+# 类型提示
+typing-extensions>=4.7.1
+
+# 项目特定依赖
+# （如果需要特定的NLP模型或其他第三方服务）
